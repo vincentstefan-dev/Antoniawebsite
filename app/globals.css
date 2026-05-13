@@ -24,3 +24,20 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes review-carousel {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-review-carousel {
+  animation: review-carousel 22s linear infinite;
+}
+
+.animate-review-carousel:hover {
+  animation-play-state: paused;
+}
