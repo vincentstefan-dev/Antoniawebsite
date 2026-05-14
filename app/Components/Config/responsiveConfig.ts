@@ -8,6 +8,21 @@ export const responsiveConfig = {
 
   sectionBase: "relative w-full overflow-hidden bg-[#1f2b14] text-[#f2dc78]",
 
+  footerSection:
+    "relative h-[72svh] min-h-[520px] w-full overflow-hidden bg-[#1f2b14] text-[#f2dc78] lg:h-[70vh] lg:min-h-[440px]",
+
+  footerLogoTop:
+    "absolute left-[5%] top-[5%] w-[1200px] whitespace-nowrap text-[clamp(6rem,18vw,22rem)] font-normal leading-[0.65] tracking-[-0.02em] lg:text-[clamp(11rem,18vw,22rem)]",
+
+  footerLogoBottom:
+    "absolute left-[10%] top-[35%] w-[1400px] whitespace-nowrap text-[clamp(6rem,18vw,22rem)] font-normal italic leading-[0.65] tracking-[-0.01em] lg:top-[42%] lg:text-[clamp(11rem,18vw,22rem)]",
+
+  footerBadge:
+    "absolute left-[50%] top-[66%] inline-flex -translate-x-1/2 items-center justify-center whitespace-nowrap rounded-full border-[3px] border-[#f2dc78] px-5 py-[0.14rem] text-[#f2dc78] lg:left-[57%] lg:top-[75%] lg:translate-x-0 lg:border-[4px] lg:px-7 lg:py-[0.18rem]",
+
+  footerCTA:
+    "absolute bottom-[7%] left-1/2 w-[88%] max-w-[520px] -translate-x-1/2 text-center text-[#f2dc78] lg:bottom-[8%] lg:left-auto lg:right-[1%] lg:w-[680px] lg:max-w-[680px] lg:translate-x-0 lg:text-right",
+
   fullScreenSection:
     "relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-[#1f2b14] text-[#f2dc78]",
 
