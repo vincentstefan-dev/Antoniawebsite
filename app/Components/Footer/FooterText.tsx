@@ -51,8 +51,7 @@ export default function FooterText({
         style={{ fontFamily: "var(--font-cormorant)" }}
       >
         <p
-          className="text-[clamp(0.75rem,3vw,1rem)] font-bold leading-[0.95] tracking-[-0.08em] lg:text-[clamp(1.2rem,1.8vw,2rem)]"
-          style={{
+      className="text-[clamp(1rem,4.5vw,1.35rem)] font-bold leading-[0.95] tracking-[-0.08em] lg:text-[clamp(1.8rem,1.8vw,3rem)]"          style={{
             textShadow:
               "2px 2px 0 rgba(95,72,18,0.95), 0 2px 6px rgba(0,0,0,0.55)",
           }}
