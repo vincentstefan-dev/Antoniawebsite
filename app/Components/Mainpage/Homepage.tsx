@@ -19,9 +19,14 @@ import BottomCTAMobile from "./UI/Mobile/BottomCTAMobile";
 
 export default function Homepage() {
   return (
-    <main className={`${forestFonts} relative min-h-screen w-full overflow-x-hidden bg-black`}>
+    <main
+      className={`${forestFonts} relative min-h-screen w-full overflow-x-hidden bg-black`}
+    >
       <section className={rc.heroSection}>
-        <ForestVideoBackground videoSrc={forestHomeConfig.videoSrc} />
+        <ForestVideoBackground
+          videoId={forestHomeConfig.videoId}
+        />
+
         <ForestOverlay />
 
         <div className={rc.desktopOnly}>
@@ -32,9 +37,13 @@ export default function Homepage() {
             insideHref={forestHomeConfig.links.insideHref}
           />
 
-          <InquiryBlockDesktop inquiry={forestHomeConfig.inquiry} />
+          <InquiryBlockDesktop
+            inquiry={forestHomeConfig.inquiry}
+          />
 
-          <BottomCTADesktop text={forestHomeConfig.cta.bottomText} />
+          <BottomCTADesktop
+            text={forestHomeConfig.cta.bottomText}
+          />
         </div>
 
         <div className={rc.mobileTabletOnly}>
@@ -45,9 +54,13 @@ export default function Homepage() {
             insideHref={forestHomeConfig.links.insideHref}
           />
 
-          <InquiryBlockMobile inquiry={forestHomeConfig.inquiry} />
+          <InquiryBlockMobile
+            inquiry={forestHomeConfig.inquiry}
+          />
 
-          <BottomCTAMobile text={forestHomeConfig.cta.bottomText} />
+          <BottomCTAMobile
+            text={forestHomeConfig.cta.bottomText}
+          />
         </div>
       </section>
     </main>

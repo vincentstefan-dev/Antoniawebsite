@@ -1,6 +1,9 @@
 export const middleCTAConfig = {
-  videoSrc: "/videos/MIDDLECTA.mp4",
+  videoId: "13nnRGM_nro",
+
   eyebrow: "Editing Service for",
-  leftText: ["Luxury &", "Purpourse driven", "brands"],
+
+  leftText: ["Luxury &", "Purpose-driven", "brands"],
+
   rightText: ["Conversions &", "Premium Brand", "Positioning"],
 };

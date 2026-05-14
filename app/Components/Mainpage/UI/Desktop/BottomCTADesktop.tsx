@@ -4,7 +4,7 @@ type BottomCTAProps = {
 
 export default function BottomCTA({ text }: BottomCTAProps) {
   return (
-    <div className="absolute bottom-[15%] left-[52%] z-20 w-full -translate-x-1/2 px-6 text-center">
+    <div className="absolute bottom-[10%] left-[52%] z-20 w-full -translate-x-1/2 px-6 text-center">
       <p
         className="mx-auto max-w-5xl text-[#f2dc78]"
         style={{

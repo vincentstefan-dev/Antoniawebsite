@@ -1,5 +1,5 @@
 export const footerConfig = {
-  videoSrc: "/videos/footer.mp4",
+  videoId: "9z6RBcm7lWk",
 
   logoText: {
     top: "Antonia",

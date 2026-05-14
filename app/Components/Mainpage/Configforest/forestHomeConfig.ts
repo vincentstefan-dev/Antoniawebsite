@@ -1,5 +1,5 @@
 export const forestHomeConfig = {
-  videoSrc: "../videos/Homepage (1).mp4",
+  videoId: "lw8PZeGrcZ0",
 
   heroText: {
     top: "Antonia",

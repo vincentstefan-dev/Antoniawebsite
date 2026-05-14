@@ -9,7 +9,7 @@ type InquiryBlockProps = {
 
 export default function InquiryBlock({ inquiry }: InquiryBlockProps) {
   return (
-    <div className="absolute left-1/2 top-[60%] z-40 w-full -translate-x-1/2 text-[#f2dc78]">
+    <div className="absolute left-1/2 top-[70%] z-40 w-full -translate-x-1/2 text-[#f2dc78]">
       <div className="text-center">
         <p
           className="mb-4"

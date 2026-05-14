@@ -9,7 +9,7 @@ export default function FooterPage() {
     <footer
       className={`${forestFonts} ${rc.sectionBase} h-[70vh] min-h-[440px]`}
     >
-      <FooterBackground src={footerConfig.videoSrc} />
+      <FooterBackground videoId={footerConfig.videoId} />
 
       <div className="absolute inset-0 bg-black/10" />
 
