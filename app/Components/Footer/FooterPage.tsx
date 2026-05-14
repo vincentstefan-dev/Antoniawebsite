@@ -6,9 +6,7 @@ import { footerConfig } from "./footerConfig";
 
 export default function FooterPage() {
   return (
-    <footer
-      className={`${forestFonts} ${rc.sectionBase} h-[70vh] min-h-[440px]`}
-    >
+    <footer className={`${forestFonts} ${rc.footerSection}`}>
       <FooterBackground videoId={footerConfig.videoId} />
 
       <div className="absolute inset-0 bg-black/10" />
