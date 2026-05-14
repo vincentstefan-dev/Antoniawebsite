@@ -18,7 +18,7 @@ export default function FooterText({
   return (
     <div className="absolute inset-0 z-20 text-[#f2dc78]">
       <p
-        className="absolute left-[5%] top-[5%] w-[1200px] whitespace-nowrap text-[clamp(11rem,18vw,22rem)] font-normal leading-[0.65] tracking-[-0.02em]"
+        className="absolute left-[7%] top-[8%] w-auto whitespace-nowrap text-[clamp(5rem,22vw,8rem)] font-normal leading-[0.65] tracking-[-0.02em] lg:left-[5%] lg:top-[5%] lg:w-[1200px] lg:text-[clamp(11rem,18vw,22rem)]"
         style={{
           fontFamily: "var(--font-luxurious-script)",
           transform: "translate(0rem, 0rem)",
@@ -28,7 +28,7 @@ export default function FooterText({
       </p>
 
       <p
-        className="absolute left-[10%] top-[30%] w-[1400px] whitespace-nowrap text-[clamp(11rem,18vw,22rem)] font-normal italic leading-[0.65] tracking-[-0.01em]"
+        className="absolute left-[13%] top-[28%] w-auto whitespace-nowrap text-[clamp(5rem,22vw,8rem)] font-normal italic leading-[0.65] tracking-[-0.01em] lg:left-[10%] lg:top-[30%] lg:w-[1400px] lg:text-[clamp(11rem,18vw,22rem)]"
         style={{
           fontFamily: "var(--font-luxurious-script)",
           transform: "translate(0rem, 0rem)",
@@ -38,31 +38,29 @@ export default function FooterText({
       </p>
 
       <div
-        className="absolute left-[52%] top-[60%] inline-flex items-center justify-center whitespace-nowrap rounded-full border-[4px] border-[#f2dc78] px-7 py-[0.18rem] text-[#f2dc78]"
+        className="absolute left-1/2 top-[58%] inline-flex -translate-x-1/2 items-center justify-center whitespace-nowrap rounded-full border-[2px] border-[#f2dc78] px-4 py-[0.12rem] text-[#f2dc78] lg:left-[52%] lg:top-[60%] lg:translate-x-0 lg:border-[4px] lg:px-7 lg:py-[0.18rem]"
         style={{
           fontFamily: "var(--font-cormorant)",
-          fontSize: "clamp(1.1rem, 1.6vw, 1.6rem)",
+          fontSize: "clamp(0.75rem, 3vw, 1.1rem)",
           fontWeight: 700,
           fontStyle: "italic",
           lineHeight: 1,
           textShadow: "0 2px 3px rgba(0,0,0,0.45)",
           boxShadow: "0 2px 8px rgba(0,0,0,0.25)",
           backdropFilter: "blur(1px)",
-          transform: "translate(0rem, 0rem)",
         }}
       >
         {logoText.badge}
       </div>
 
       <div
-        className="absolute bottom-[8%] right-[1%] w-[680px] max-w-[680px] text-right text-[#f2dc78]"
+        className="absolute bottom-[7%] left-1/2 w-[90%] max-w-[340px] -translate-x-1/2 text-center text-[#f2dc78] lg:bottom-[8%] lg:left-auto lg:right-[1%] lg:w-[680px] lg:max-w-[680px] lg:translate-x-0 lg:text-right"
         style={{
           fontFamily: "var(--font-cormorant)",
-          transform: "translate(0rem, 0rem)",
         }}
       >
         <p
-          className="text-[clamp(1.2rem,1.8vw,2rem)] font-bold leading-[0.95] tracking-[-0.08em]"
+          className="text-[clamp(0.75rem,3vw,1rem)] font-bold leading-[0.95] tracking-[-0.08em] lg:text-[clamp(1.2rem,1.8vw,2rem)]"
           style={{
             textShadow:
               "2px 2px 0 rgba(95,72,18,0.95), 0 2px 6px rgba(0,0,0,0.55)",
@@ -73,7 +71,7 @@ export default function FooterText({
 
         {note && (
           <p
-            className="mt-5 text-[clamp(1rem,1.5vw,1.6rem)] font-bold leading-[0.95] tracking-[-0.08em]"
+            className="mt-3 text-[clamp(0.7rem,2.8vw,0.95rem)] font-bold leading-[0.95] tracking-[-0.08em] lg:mt-5 lg:text-[clamp(1rem,1.5vw,1.6rem)]"
             style={{
               textShadow:
                 "2px 2px 0 rgba(95,72,18,0.95), 0 2px 6px rgba(0,0,0,0.55)",
